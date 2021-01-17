@@ -43,6 +43,8 @@ public class TelaSoma extends javax.swing.JFrame {
 
         jLabel1.setText("+");
 
+        lblSoma.setFont(new java.awt.Font("Lucida Sans", 1, 18)); // NOI18N
+        lblSoma.setForeground(new java.awt.Color(228, 23, 23));
         lblSoma.setText("0");
 
         btnSoma.setText("=");
@@ -67,7 +69,7 @@ public class TelaSoma extends javax.swing.JFrame {
                 .addComponent(btnSoma, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lblSoma)
-                .addContainerGap(46, Short.MAX_VALUE))
+                .addContainerGap(42, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
